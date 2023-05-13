@@ -1,0 +1,207 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: url(imagens/imagem-top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.opções_img
+{
+    text-align: left;
+    margin-top: -10%;
+    margin-left: -5%;
+}
+
+.opções_img img
+{
+    width: 46vw;
+}
+
+.volume_img
+{
+    text-align: center;
+    margin-top: -41%;
+    margin-left: -10%;
+}
+
+.volume_img img
+{
+    width: 35vw;
+}
+
+.narracao_img
+{
+    margin-top: -17%;
+    margin-left: -2%;
+}
+
+.narracao_img img
+{
+    width: 40vw;
+}
+
+.lig-des_img
+{
+    text-align: center;
+    margin-top: -38%;
+    margin-left: -10%;
+}
+
+.lig-des_img img
+{
+    width: 35vw;
+}
+
+.min-max_img
+{
+    text-align: right;
+    margin-top: -48%;
+    margin-right: -2%;
+}
+
+.min-max_img img
+{
+    width: 47vw;
+}
+
+.voltar
+{
+    display: block;
+    margin-top: 17%;
+    margin-left: 79%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 22%;
+    width: 15%;
+    position: relative;
+    z-index: 2;
+}
+
+.voltar_img
+{
+    text-align: right;
+    margin-top: -22%;
+    margin-right: -3%;
+    z-index: 2;
+}
+
+.voltar_img img
+{
+    width: 30vw;
+}
+
+.volumes_img
+{
+    text-align: right;
+    margin-top: -8%;
+    margin-right: -0.3%;
+}
+
+.volumes_img img
+{
+    width: 43vw;
+}
+
+.lig-des_botao
+{
+    display:block;
+    margin-top: -26%;
+    margin-left: 34%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 30%;
+    width: 20%;
+    position: relative;
+    z-index: 1;
+}
+
+.v1
+{
+    display:block;
+    margin-top: -46.5%;
+    margin-left: 58%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 7%;
+    width: 5%;
+    position: relative;
+    z-index: 1;
+}
+.v2
+{
+    display:block;
+    margin-top: -3.5%;
+    margin-left: 64.6%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 6%;
+    width: 3.5%;
+    position: relative;
+    z-index: 1;
+}
+.v3
+{
+    display:block;
+    margin-top: -2.8%;
+    margin-left: 69.7%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 6%;
+    width: 3.5%;
+    position: relative;
+    z-index: 1;
+}
+.v4
+{
+    display:block;
+    margin-top: -3.7%;
+    margin-left: 75%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 7%;
+    width: 5%;
+    position: relative;
+    z-index: 1;
+}
+.v5
+{
+    display:block;
+    margin-top: -3.2%;
+    margin-left: 81.8%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 6%;
+    width: 3.5%;
+    position: relative;
+    z-index: 1;
+}
+.v6
+{
+    display:block;
+    margin-top: -3.2%;
+    margin-left: 86.9%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 6%;
+    width: 3.5%;
+    position: relative;
+    z-index: 1;
+}
+.v7
+{
+    display:block;
+    margin-top: -3.7%;
+    margin-left: 91.5%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 7%;
+    width: 5%;
+    position: relative;
+    z-index: 1;
+}
