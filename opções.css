@@ -3,6 +3,33 @@ html
     height: 100%;
 }
 
+h1
+{
+    font-family: 'Finger Paint', cursive;
+}
+
+.imagem-container 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-container img 
+{
+    width: 40vw;
+}
+
+.imagem-container h1 
+{
+    position: absolute;
+    top: 46%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #000000;
+    font-size: 3.5vw;
+}
+
 body
 {
     background-image: url(imagens/imagem-top.jpg);
@@ -15,35 +42,35 @@ body
 {
     text-align: left;
     margin-top: -10%;
-    margin-left: -5%;
+    margin-left: -4%;
 }
 
 .opções_img img
 {
-    width: 46vw;
+    width: 45vw;
 }
 
 .volume_img
 {
     text-align: center;
     margin-top: -41%;
-    margin-left: -10%;
+    margin-left: -5%;
 }
 
 .volume_img img
 {
-    width: 35vw;
+    width: 33vw;
 }
 
 .narracao_img
 {
-    margin-top: -17%;
-    margin-left: -2%;
+    margin-top: -12%;
+    margin-left: 1%;
 }
 
 .narracao_img img
 {
-    width: 40vw;
+    width: 35vw;
 }
 
 .lig-des_img
@@ -61,8 +88,8 @@ body
 .min-max_img
 {
     text-align: right;
-    margin-top: -48%;
-    margin-right: -2%;
+    margin-top: -45%;
+    margin-right: -3%;
 }
 
 .min-max_img img
@@ -73,12 +100,12 @@ body
 .voltar
 {
     display: block;
-    margin-top: 17%;
-    margin-left: 79%;
+    margin-top: 18%;
+    margin-left: 75.5%;
     background-color: transparent;
     cursor: pointer;
     height: 22%;
-    width: 15%;
+    width: 25%;
     position: relative;
     z-index: 2;
 }
@@ -86,7 +113,7 @@ body
 .voltar_img
 {
     text-align: right;
-    margin-top: -22%;
+    margin-top: -13.5%;
     margin-right: -3%;
     z-index: 2;
 }
@@ -99,8 +126,8 @@ body
 .volumes_img
 {
     text-align: right;
-    margin-top: -8%;
-    margin-right: -0.3%;
+    margin-top: -7%;
+    margin-right: -2%;
 }
 
 .volumes_img img
@@ -124,8 +151,8 @@ body
 .v1
 {
     display:block;
-    margin-top: -46.5%;
-    margin-left: 58%;
+    margin-top: -37%;
+    margin-left: 60%;
     background-color: transparent;
     cursor: pointer;
     height: 7%;
@@ -137,7 +164,7 @@ body
 {
     display:block;
     margin-top: -3.5%;
-    margin-left: 64.6%;
+    margin-left: 66%;
     background-color: transparent;
     cursor: pointer;
     height: 6%;
@@ -148,8 +175,8 @@ body
 .v3
 {
     display:block;
-    margin-top: -2.8%;
-    margin-left: 69.7%;
+    margin-top: -3.1%;
+    margin-left: 71.3%;
     background-color: transparent;
     cursor: pointer;
     height: 6%;
@@ -161,7 +188,7 @@ body
 {
     display:block;
     margin-top: -3.7%;
-    margin-left: 75%;
+    margin-left: 76.5%;
     background-color: transparent;
     cursor: pointer;
     height: 7%;
@@ -173,7 +200,7 @@ body
 {
     display:block;
     margin-top: -3.2%;
-    margin-left: 81.8%;
+    margin-left: 83.5%;
     background-color: transparent;
     cursor: pointer;
     height: 6%;
@@ -184,8 +211,8 @@ body
 .v6
 {
     display:block;
-    margin-top: -3.2%;
-    margin-left: 86.9%;
+    margin-top: -3.5%;
+    margin-left: 88.5%;
     background-color: transparent;
     cursor: pointer;
     height: 6%;
@@ -197,7 +224,7 @@ body
 {
     display:block;
     margin-top: -3.7%;
-    margin-left: 91.5%;
+    margin-left: 93%;
     background-color: transparent;
     cursor: pointer;
     height: 7%;

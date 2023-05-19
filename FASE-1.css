@@ -1,0 +1,181 @@
+html
+{
+    height: 100%;
+}
+
+h1
+{
+    font-family: 'Finger Paint', cursive;
+}
+
+.imagem-container 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-container img 
+{
+    width: 40vw;
+}
+
+.imagem-container h1 
+{
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #000000;
+    font-size: 3vw;
+}
+
+body
+{
+    background-image: url(imagens/praia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+} 
+
+.organiza
+{
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 30%;
+    z-index: 2;
+}
+
+.organiza img
+{
+    width: 15vw;
+    margin-right: 50px;
+}
+
+.minerios
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -33%;
+    gap: 10px;
+}
+
+.Bcobre
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    height: 13%;
+    width: 15%;
+    position: relative;
+    z-index: 2;
+    top: 61.5%;
+    margin-left: 21%;
+}
+
+.Bprata
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    height: 13%;
+    width: 15%;
+    position: relative;
+    z-index: 2;
+    top: 48.5%;
+    margin-left: 45.5%;
+}
+
+.Bcarvao
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    height: 13%;
+    width: 15%;
+    position: relative;
+    z-index: 2;
+    top: 35.5%;
+    margin-left: 70%;
+}
+
+.prata
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    height: 30%;
+    width: 12%;
+    position: relative;
+    z-index: 2;
+    top: -45%;
+    margin-left: 27%;
+}
+
+.carvão
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    height: 18%;
+    width: 12%;
+    position: relative;
+    z-index: 2;
+    top: -60%;
+    margin-left: 46%;
+}
+
+.cobre
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    height: 18%;
+    width: 12%;
+    position: relative;
+    z-index: 2;
+    top: -80%;
+    margin-left: 65%;
+}
+
+.nomes
+{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30%;
+    gap: 10px;
+}
+
+.nomes img
+{
+    width: 20vw;
+}
+
+.pause
+{
+    margin-top: -53%;
+    text-align: left;
+}
+
+.Bpause
+{
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    height: 13%;
+    width: 7%;
+    position: relative;
+    z-index: 2;
+    top: -122%;
+    margin-left: 2%;
+}
+
+.pause img
+{
+    width: 10vw;
+}

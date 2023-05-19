@@ -3,6 +3,11 @@ html
     height: 100%;
 }
 
+h1
+{
+    font-family: 'Finger Paint', cursive;
+}
+
 body
 {
     background-image: url(imagens/imagem-top.jpg);
@@ -13,20 +18,38 @@ body
 
 .centralizar
 {
-    text-align: right;
-    margin-top: -9.5%;
-    margin-right: 24%;
+    top: -18%;
+    left: 10%;
+    position: relative;  /*permite uso de "top, left..."*/
+    text-align: center;
+}
+.imagem-container 
+{
+    position: relative;
+    display: inline-block;
 }
 
-.centralizar img
+.imagem-container img 
 {
     width: 40vw;
 }
 
+.imagem-container h1 
+{
+    position: absolute;
+    top: 46%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #000000;
+    font-size: 3.5vw;
+}
+
+
 .jogar
 {
     display: block;
-    margin-top: -15%;
+    margin-top: -25%;
     margin-left: 9%;
     background-color: transparent;
     cursor: pointer;
@@ -52,7 +75,7 @@ body
 .opcoes
 {
     display: block;
-    margin-top: -20%;
+    margin-top: -18%;
     margin-left: 56%;
     background-color: transparent;
     cursor: pointer;
@@ -60,6 +83,12 @@ body
     width: 18%;
     position: relative;
     z-index: 2;
+}
+
+.opc_img h1
+{
+    top: 42%;
+    left: 52%;
 }
 
 .opc_img
@@ -72,7 +101,7 @@ body
 
 .opc_img img
 {
-    width: 33vw;
+    width: 25vw;
 }
 
 .sair
@@ -91,12 +120,17 @@ body
 .sair_img
 {
     text-align: right;
-    margin-top: -34%;
+    margin-top: -27%;
     margin-right: -7%;
     z-index: 2;
 }
 
+.sair_img h1
+{
+    top: 42%;
+}
+
 .sair_img img
 {
-    width: 33vw;
+    width: 25vw;
 }

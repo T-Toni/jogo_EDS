@@ -7,24 +7,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="opções.css">
     <script src="opcoes.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
 </head>
 
 <body style="width: 95%; height: 100%;">
  
     <div class="opções_img">
-        <img src="imagens/opçõesG.png" alt="obj-opçõesG">
+        <div class="imagem-container">
+            <img src="imagens/logo_.svg" alt="obj-opçõesG">
+            <h1 style="font-size: 6vw; top: 40%;">OPÇÕES</h1>
+        </div>
     </div>
 
     <div class="volume_img">
-        <img src="imagens/volume.png" alt="obj-volume">
+        <div class="imagem-container">
+            <img src="imagens/botaog.svg" alt="obj-volume">
+            <h1 style="font-size: 3.2vw; top: 43%;">VOLUME:</h1>
+        </div>
     </div>
 
     <div class="narracao_img">
-        <img src="imagens/narração.png" alt="obj-narracao">
+        <div class="imagem-container">
+            <img src="imagens/botaog.svg" alt="obj-narração">
+            <h1 style="font-size: 3.2vw; top: 43%;">NARRAÇÃO:</h1>
+        </div>
     </div>
 
     <div class="lig-des_img">
-        <img id="narracao" src="imagens/desligado.png" alt="obj-desligado">
+        <img id="narracao" src="imagens/desligado.png" alt="obj-lig-des">
     </div>
 
     <a onclick="trocar()" class="lig-des_botao">
@@ -42,7 +54,10 @@
     </a>
 
     <div class="voltar_img">
-        <img src="imagens/voltar.png" alt="obj-voltar">
+        <div class="imagem-container">
+            <img src="imagens/Placa-esq.svg" alt="obj-voltar">
+            <h1 style="font-size: 3.5vw; top: 18%; left: 53%;">VOLTAR</h1>
+        </div>
     </div>
 
     <a onclick="volume(v1)" class="v1">

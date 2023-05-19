@@ -38,49 +38,26 @@ body
     background-color: black;
 }
 
-.intro1
+.fase1
 {
+    margin-top: -10%;
+    margin-left: 2%;
+    position: relative;  /*permite uso de "top, left..."*/
     text-align: center;
-    margin-top: -75%;
-    margin-left: 5%;
-    z-index: 2;
 }
 
-.intro1 img
+.explicacao
 {
-    width: 60vw;
-}
-
-.voltar
-{
-    display: block;
-    margin-top: 40%;
-    margin-left: 3%;
-    background-color: transparent;
-    cursor: pointer;
-    height: 17%;
-    width: 25%;
-    position: relative;
-    z-index: 2;
-}
-
-.proximo
-{
-    display: block;
-    margin-top: -27.2%;
-    margin-left: 77%;
-    background-color: transparent;
-    cursor: pointer;
-    height: 15%;
-    width: 22%;
-    position: relative;
-    z-index: 2;
+    margin-top: -12%;
+    margin-right: -2%;
+    position: relative;  /*permite uso de "top, left..."*/
+    text-align: center;
 }
 
 .voltar_img
 {
     text-align: left;
-    margin-top: -4%;
+    margin-top: -10%;
     margin-right: -3%;
     z-index: 2;
 }
@@ -94,11 +71,37 @@ body
 {
     text-align: right;
     margin-top: -31%;
-    margin-right: -3%;
+    margin-right: 0%;
     z-index: 2;
 }
 
 .proximo_img img
 {
     width: 26vw;
+}
+
+.voltar
+{
+    display: block;
+    margin-top: -28%;
+    margin-left: 2%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 15%;
+    width: 25%;
+    position: relative;
+    z-index: 2;
+}
+
+.proximo
+{
+    display: block;
+    margin-top: -7.5%;
+    margin-left: 73%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 15%;
+    width: 25%;
+    position: relative;
+    z-index: 2;
 }
