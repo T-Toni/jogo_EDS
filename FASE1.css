@@ -1,0 +1,145 @@
+html
+{
+    height: 100%;
+}
+
+h1
+{
+    font-family: 'Finger Paint', cursive;
+}
+
+.imagem-container 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-container img 
+{
+    width: 40vw;
+}
+
+.imagem-container h1 
+{
+    position: absolute;
+    top: 46%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #000000;
+    font-size: 3.5vw;
+}
+
+body
+{
+    background-image: url(imagens/imagem-top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.introdução
+{
+    display: block;
+    margin-top: 10%;
+    margin-left: 15%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 48%;
+    width: 34%;
+    position: relative;
+    z-index: 2;
+}
+
+.introdução_img
+{
+    text-align: left;
+    margin-top: -43%;
+    margin-left: 5%;
+    z-index: 2;
+}
+
+.introdução_img img
+{
+    width: 50vw;
+}
+
+.fase1
+{
+    text-align: right;
+    display: block;
+    margin-top: -40%;
+    margin-left: 71%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 30%;
+    width: 18%;
+    position: relative;
+    z-index: 2;
+}
+
+.fase1_img
+{
+    text-align: right;
+    margin-top: -22%;
+    margin-right: 5%;
+    z-index: 2;
+}
+
+.fase1_img img
+{
+    width: 30vw;
+}
+
+.fase2
+{
+    text-align: right;
+    display: block;
+    margin-top: -3%;
+    margin-left: 71%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 30%;
+    width: 18%;
+    position: relative;
+    z-index: 2;
+}
+
+.fase2_img
+{
+    text-align: right;
+    margin-top: -25%;
+    margin-right: 2%;
+    z-index: 2;
+}
+
+.fase2_img img
+{
+    width: 33vw;
+}
+
+.voltar
+{
+    display: block;
+    margin-top: -14%;
+    margin-left: 3%;
+    background-color: transparent;
+    cursor: pointer;
+    height: 13%;
+    width: 20%;
+    position: relative;
+    z-index: 2;
+}
+
+.voltar_img
+{
+    text-align: left;
+    margin-top: -10%;
+    margin-left: 1%;
+    z-index: 2;
+}
+
+.voltar_img img
+{
+    width: 22vw;
+}
