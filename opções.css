@@ -37,6 +37,7 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    overflow: hidden;  /*faz com que a pagina não fique maior do que a tela*/
 }
 
 .opções_img
